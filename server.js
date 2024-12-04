@@ -1,4 +1,5 @@
-require("dotenv").config({ });
+require("dotenv").config({ path: __dirname + '/.env' });
+const path = require('path');
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
@@ -9,6 +10,9 @@ const PASSWORD=process.env.PASSWORD;
 
 // server used to send send emails
 const app = express();
+// Serve the static frontend files
+app.use(express.static(path.join(__dirname, 'frontend')));
+
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
