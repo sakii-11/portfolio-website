@@ -10,8 +10,8 @@ const PASSWORD=process.env.PASSWORD;
 
 // server used to send send emails
 const app = express();
-// Serve the static frontend files
-app.use(express.static(path.join(__dirname, 'frontend')));
+// // Serve the static frontend files
+// app.use(express.static(path.join(__dirname, 'frontend')));
 
 app.use(cors());
 app.use(express.json());
