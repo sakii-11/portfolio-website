@@ -37,7 +37,6 @@ export const Skills = () =>{
         { name: "Springboot", icon: "fas fa-palette" },
         { name: "React", icon: "fab fa-react" },
         { name: "Flask", icon: "fab fa-react" },
-        { name: "React Native", icon: "fas fa-check-circle" },
         { name: "Node js", icon: "fas fa-server" },
       ],
     },
