@@ -48,7 +48,7 @@ export const Projects = () => {
       imgUrl: projImg1,
       links: [
       { label: "Code", url: "https://github.com/example", active: true },
-      { label: "Live", url: "https://example.com/live", active: true },
+      { label: "Live", url: "https://jobportal-1-2gqo.onrender.com/", active: true },
     ]
     },
     {
@@ -69,6 +69,7 @@ export const Projects = () => {
       imgUrl: ml1,
       links: [
       { label: "Code", url: "https://github.com/sakii-11/Book_recommender", active: true },
+      { label: "Live", url: "https://book-recommender-knqo.onrender.com/", active: true },
     ]
     },
     {
